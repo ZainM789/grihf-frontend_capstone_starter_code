@@ -5,7 +5,7 @@ body {
     background: #fff;
 }
 
-.SignUp-outer {
+.Sign_Up-outer {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ main {
 }
 
 /* Add this wrapper for centered padding */
-.SignUp-center-padding {
+.Sign_Up-center-padding {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,7 @@ main {
     width: 100%;
 }
 
-.SignUp-title {
+.Sign_Up-title {
     font-size: 2.8rem;
     font-weight: bold;
     margin-top: 60px;
@@ -39,24 +39,24 @@ main {
     letter-spacing: 1px;
 }
 
-.SignUp-login {
+.Sign_Up-login {
     margin-top: 18px;
     text-align: center;
     font-size: 1.35rem;
 }
 
-.SignUp-login .login-link {
+.Sign_Up-login .login-link {
     color: #169edb;
     text-decoration: none;
     font-weight: 500;
     transition: text-decoration 0.2s;
 }
 
-.SignUp-login .login-link:hover {
+.Sign_Up-login .login-link:hover {
     text-decoration: underline;
 }
 
-.SignUp-form-container {
+.Sign_Up-form-container {
     margin-top: 28px;
     padding: 38px 34px 30px 34px;
     background: #e7fdff;
@@ -68,28 +68,28 @@ main {
     align-items: center;
 }
 
-#signupForm {
+#Sign_UpForm {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
-.SignUp-form-group {
+.Sign_Up-form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 11px;
 }
 
-.SignUp-form-group label {
+.Sign_Up-form-group label {
     font-weight: bold;
     font-size: 1rem;
     color: #222;
     margin-bottom: 3px;
 }
 
-.SignUp-form-group input,
-.SignUp-form-group select {
+.Sign_Up-form-group input,
+.Sign_Up-form-group select {
     padding: 8px 10px;
     border: 2px solid #888;
     border-radius: 0;
@@ -99,12 +99,12 @@ main {
     transition: border 0.2s;
 }
 
-.SignUp-form-group input:focus,
-.SignUp-form-group select:focus {
+.Sign_Up-form-group input:focus,
+.Sign_Up-form-group select:focus {
     border-color: #13a3d7;
 }
 
-.SignUp-form-buttons {
+.Sign_Up-form-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +112,7 @@ main {
     margin-top: 10px;
 }
 
-.SignUp-submit-btn {
+.Sign_Up-submit-btn {
     background: #13a3d7;
     color: #fff;
     font-size: 1.3rem;
@@ -126,11 +126,11 @@ main {
     transition: background 0.2s;
 }
 
-.SignUp-submit-btn:hover {
+.Sign_Up-submit-btn:hover {
     background: #1189b9;
 }
 
-.SignUp-reset-btn {
+.Sign_Up-reset-btn {
     background: #ff3b3b;
     color: #fff;
     font-size: 1.3rem;
@@ -144,6 +144,6 @@ main {
     transition: background 0.2s;
 }
 
-.SignUp-reset-btn:hover {
+.Sign_Up-reset-btn:hover {
     background: #d92e2e;
 }
